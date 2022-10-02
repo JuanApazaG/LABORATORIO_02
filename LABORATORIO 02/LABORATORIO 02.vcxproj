@@ -127,11 +127,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Barca.cpp" />
+    <ClCompile Include="BloqueDeMadera.cpp" />
+    <ClCompile Include="Casco.cpp" />
+    <ClCompile Include="Cubo.cpp" />
+    <ClCompile Include="DiscoDeMusica.cpp" />
     <ClCompile Include="espada.cpp" />
+    <ClCompile Include="Fillete.cpp" />
+    <ClCompile Include="Flecha.cpp" />
+    <ClCompile Include="Hacha.cpp" />
+    <ClCompile Include="Huevo.cpp" />
+    <ClCompile Include="Libro.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pala.cpp" />
+    <ClCompile Include="Pico.cpp" />
+    <ClCompile Include="Semilla.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Barca.h" />
+    <ClInclude Include="BloqueDeMadera.h" />
+    <ClInclude Include="Casco.h" />
+    <ClInclude Include="Cubo.h" />
+    <ClInclude Include="DiscoDeMusica.h" />
     <ClInclude Include="espada.h" />
+    <ClInclude Include="Fillete.h" />
+    <ClInclude Include="Flecha.h" />
+    <ClInclude Include="Hacha.h" />
+    <ClInclude Include="Huevo.h" />
+    <ClInclude Include="Libro.h" />
+    <ClInclude Include="Pala.h" />
+    <ClInclude Include="Pico.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Semilla.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LABORATORIO 02.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
